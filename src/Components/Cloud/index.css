@@ -1,0 +1,55 @@
+.weather-image{
+    background-image: url("https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(15px);
+}
+
+.weather-text{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    border: 1px;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.location-search{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    
+}
+
+.search-bar{
+    background-color: transparent;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.search-btn{
+    height: 38px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 17px;
+}
+
+.line{
+    width: 150%;
+}
+
